@@ -72,7 +72,7 @@
       
          <div style="display:table; border:1px solid; 20px, margin:10px; height:85%; width: 100%;">
             <!------------------ 사이드바 ---------------------->
-            <div style="float:left; width: 15%; border:1px solid; padding:30px; height:100%;"><br><Br>
+            <div style="float:left; width: 15%; border:1px solid; padding:30px; height:90%;"><br><Br>
                <h3>마이페이지</h3><br>
                   <a onClick="goMyPageForm()">내 정보관리</a><br><br>
                   <a onClick="goMenuForm()">메뉴관리</a><br><br>
@@ -81,7 +81,7 @@
             </div>
 
             <!------------------ 메인으로 보여줄 div -------------------->
-            <div style="float: left; height:100%; border:1px solid; 20px, margin:10px; width: 85%; height:100%;"><br>
+            <div style="float: right; border:1px solid; 20px, margin:10px; width: 80%; height:100%;"><br>
                <select align="right" name="businessNo" class="businessNo">
                   <option value="busiNo">사업자번호
                </select><br><br><br>
