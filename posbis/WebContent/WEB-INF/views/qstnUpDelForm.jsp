@@ -17,10 +17,10 @@
       <script src="jquery-1.11.0.min.js"></script>
       <script>
          function checkQstnUpDelForm(){
-            location.replace('/z_spring/qstnForm.do');
+            location.replace('/posbis/qstnForm.do');
          }
          function checkQstnUpDelForm(){
-            location.replace('/z_spring/qstnForm.do');
+            location.replace('/posbis/qstnForm.do');
          }
       </script>
    </head>
@@ -55,7 +55,7 @@
         <!-- -------------------- -->
         <input type="button" value="수정"  onClick="checkQstnUpDelForm();">
         <input type="button" value="삭제"  onClick="checkQstnUpDelForm();">
-        <input type="button" value="목록" onClick="location.replace('/z_spring/qstnForm.do');">
+        <input type="button" value="목록" onClick="location.replace('/posbis/qstnForm.do');">
       </form>
      
       <!--

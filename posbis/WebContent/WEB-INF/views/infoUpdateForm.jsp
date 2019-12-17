@@ -9,7 +9,7 @@
 
       function checkUserRegForm(){
          //
-    	  location.replace("/z_spring/myPageForm.do");
+    	  location.replace("/posbis/myPageForm.do");
       }
       
       function changeRank(){
@@ -19,7 +19,7 @@
 
       function goMainForm(){
           alert("메인으로 이동");
-          location.replace("/z_spring/mainForm.do");
+          location.replace("/posbis/mainForm.do");
        }
       	
 

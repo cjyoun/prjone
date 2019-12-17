@@ -15,17 +15,17 @@
       <script src="jquery-1.11.0.min.js"></script>
       <script>
       function goQstnUpDelForm(){
-         location.replace('/z_spring/qstnUpDelForm.do')
+         location.replace('/posbis/qstnUpDelForm.do')
       }
       
       function goQstnRegForm(){
-         location.replace('/z_spring/qstnRegForm.do')
+         location.replace('/posbis/qstnRegForm.do')
       }
 
 
       function goMainForm(){
           alert("메인으로 이동");
-          location.replace("/z_spring/mainForm.do");
+          location.replace("/posbis/mainForm.do");
        }
 			
 
@@ -61,7 +61,7 @@
         <!--------------------------------------------------------------------------------------->
         <input type="button" value="답글쓰기" onclick="goQstnRegForm();">&nbsp;
         <input type="button" value="수정/삭제" onclick="goQstnUpDelForm();">&nbsp;
-        <input type="button" value="목록보기" onclick="location.replace('/z_spring/qstnForm.do');">
+        <input type="button" value="목록보기" onclick="location.replace('/posbis/qstnForm.do');">
       </form>   
       
       <form name="qstnForm" method="post">

@@ -11,43 +11,43 @@
       
       function goMyPageForm(){
          alert("goMyPageForm.jsp로 이동")
-         location.replace("/z_spring/myPageForm.do")
+         location.replace("/posbis/myPageForm.do")
       }
 
       function goMenuForm(){
          alert("goMenuForm.jsp로 이동")
-         location.replace("/z_spring/menuForm.do")
+         location.replace("/posbis/menuForm.do")
       }
     
       function goSalesForm(){
          alert("goSalesForm.jsp로 이동")
-         location.replace("/z_spring/salesForm.do")
+         location.replace("/posbis/salesForm.do")
       }
     
       function goPreChartForm(){
          alert("goPreChartForm.jsp로 이동")
-         location.replace("/z_spring/preChartForm.do")
+         location.replace("/posbis/preChartForm.do")
       }
 
       function goMainForm(){
          alert("goMainForm.jsp로 이동")
-         location.replace("/z_spring/mainForm.do")
+         location.replace("/posbis/mainForm.do")
       }
       
       function goInfoUpdateForm(){
          alert("goInfoUpdateForm.jsp로 이동")
-         location.replace("/z_spring/infoUpdateForm.do")
+         location.replace("/posbis/infoUpdateForm.do")
       }
       
       function gowithdrawalForm(){
          alert("gowithdrawalForm.jsp로 이동")
-         location.replace("/z_spring/withdrawalForm.do")
+         location.replace("/posbis/withdrawalForm.do")
       }
 
 
       function goMainForm(){
           alert("메인으로 이동");
-          location.replace("/z_spring/mainForm.do");
+          location.replace("/posbis/mainForm.do");
        }
      	
     

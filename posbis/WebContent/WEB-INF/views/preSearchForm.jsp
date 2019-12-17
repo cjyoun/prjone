@@ -13,13 +13,13 @@
       }   
 
       function goPreChartForm(){
-         location.replace("/z_spring/preChartForm.do");
+         location.replace("/posbis/preChartForm.do");
       }
 
 
       function goMainForm(){
           alert("메인으로 이동");
-          location.replace("/z_spring/mainForm.do");
+          location.replace("/posbis/mainForm.do");
        }
      
 
@@ -35,8 +35,8 @@
 
       
       <input type="button" value="분석페이지로가기" style="width=130" onClick="goPreChartForm();">&nbsp;
-      <input type="button" value="마이페이지로가기" style="width=130" onClick="location.replace('/z_spring/myPageForm.do');">&nbsp;
-      <input type="button" value="q&a로가기" style="width=130" onClick="location.replace('/z_spring/qstnForm.do');">&nbsp;
+      <input type="button" value="마이페이지로가기" style="width=130" onClick="location.replace('/posbis/myPageForm.do');">&nbsp;
+      <input type="button" value="q&a로가기" style="width=130" onClick="location.replace('/posbis/qstnForm.do');">&nbsp;
       
       <!--======================-->
       <!--검색 조건-------------->

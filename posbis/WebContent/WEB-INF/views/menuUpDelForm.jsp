@@ -14,7 +14,7 @@
          alert("정말로 수정/삭제하시겠습니까?");
       }
       function goMenuForm(){
-         location.replace( "/z_spring/menuForm.do" );
+         location.replace( "/posbis/menuForm.do" );
       }
       </script>
 

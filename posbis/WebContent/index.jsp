@@ -9,7 +9,7 @@
 <body>
 
 	<script>
-		location.replace("/z_spring/mainForm.do");	
+		location.replace("/posbis/mainForm.do");	
 	</script>
 
 </body>

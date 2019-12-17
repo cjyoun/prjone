@@ -38,7 +38,7 @@
       <script>
          function goMainForm(){
             alert("메인으로 이동");
-            location.replace("/z_spring/mainForm.do");
+            location.replace("/posbis/mainForm.do");
          }
 
  

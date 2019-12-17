@@ -25,12 +25,12 @@
    <script> 
       function goMyPageForm(){
          alert("결제가 완료 되었습니다.");
-         location.replace("/z_spring/mainForm.do");
+         location.replace("/posbis/mainForm.do");
       }
       
       function goMainForm(){
          alert("결제가 취소 되었습니다.");
-       	 location.replace("/z_spring/mainForm.do");
+       	 location.replace("/posbis/mainForm.do");
       }
    </script>
 

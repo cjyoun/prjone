@@ -29,11 +29,11 @@
       
       function checkUserRegForm(){
          //회원가입 양식 유효성체크
-    	  location.replace("/z_spring/payForm.do");
+    	  location.replace("/posbis/payForm.do");
       }
 
       function goMainForm(){
-         location.replace("/z_spring/mainForm.do");
+         location.replace("/posbis/mainForm.do");
       }
       
       function checkOverlap(){

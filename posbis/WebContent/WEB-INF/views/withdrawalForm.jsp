@@ -9,12 +9,12 @@
 
       function goMainForm(){
          alert("정말 탈퇴하시겠습니까?");
-         location.replace("/z_spring/mainForm.do")
+         location.replace("/posbis/mainForm.do")
       }
 
       function goMyPageForm(){
          alert("goMyPageForm.jsp로 이동")
-         location.replace("/z_spring/myPageForm.do")
+         location.replace("/posbis/myPageForm.do")
       }
    </script>
    

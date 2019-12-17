@@ -7,12 +7,12 @@
       <script>
          function goMainForm(){
       	   alert("아이디 비번 찾기 성공!");
-      	   location.replace("/z_spring/mainForm.do");
+      	   location.replace("/posbis/mainForm.do");
          }
 
          function goMainForm(){
              alert("메인으로 이동");
-             location.replace("/z_spring/mainForm.do");
+             location.replace("/posbis/mainForm.do");
           }
  			
  		

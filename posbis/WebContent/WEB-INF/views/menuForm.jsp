@@ -11,27 +11,27 @@
       
          // 마이페이지로 이동
          function goMyPageForm(){
-            location.replace( "/z_spring/myPageForm.do" );
+            location.replace( "/posbis/myPageForm.do" );
          }
 
          // 메뉴관리 페이지로 이동
          function goMenuForm(){
-            location.replace( "/z_spring/menuForm.do" );
+            location.replace( "/posbis/menuForm.do" );
          }
          
          // 매출관리 페이지로 이동
          function goSalesForm(){
-            location.replace( "/z_spring/salesForm.do" );
+            location.replace( "/posbis/salesForm.do" );
          }
                   
          // 프리미엄 페이지로 이동
          function goPreChartForm(){
-            location.replace( "/z_spring/preChartForm.do" );
+            location.replace( "/posbis/preChartForm.do" );
          }
                   
          // 메뉴수정삭제 페이지로 이동
          function goMenuUpDelForm(){
-            location.replace( "/z_spring/menuUpDelForm.do" );
+            location.replace( "/posbis/menuUpDelForm.do" );
          }
                   
          // 메뉴검색 함수
@@ -46,13 +46,13 @@
                   
          // 메뉴등록 페이지로 이동
          function goMenuRegForm(){
-            location.replace( "/z_spring/menuRegForm.do" );
+            location.replace( "/posbis/menuRegForm.do" );
          }
 
 
          function goMainForm(){
              alert("메인으로 이동");
-             location.replace("/z_spring/mainForm.do");
+             location.replace("/posbis/mainForm.do");
           }
          
  			
@@ -101,9 +101,9 @@
                   <th>menu_cost
             </table><br>
 
-         <input type="button" value="q&a게시판" style="width=130" onClick="location.replace('/z_spring/qstnRegForm.jsp')">&nbsp;
+         <input type="button" value="q&a게시판" style="width=130" onClick="location.replace('/posbis/qstnRegForm.jsp')">&nbsp;
          <input type="button" value="분석페이지" style="width=130" onClick="goPreChartForm();">&nbsp;
-         <input type="button" value="마이페이지" style="width=130" onClick="location.replace('/z_spring/myPageForm.jsp')">&nbsp;
+         <input type="button" value="마이페이지" style="width=130" onClick="location.replace('/posbis/myPageForm.jsp')">&nbsp;
                      
       </form>
 

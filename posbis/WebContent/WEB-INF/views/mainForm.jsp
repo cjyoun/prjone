@@ -34,25 +34,25 @@
 
 			function goIntroForm(){
 				alert("소개글로 이동")
-				location.replace("/z_spring/introForm.do")
+				location.replace("/posbis/introForm.do")
 			}
 
 
 			function goIdPwdSearchForm(){
 				alert("아이디/비밀번호 찾기 이동")
-				location.replace("/z_spring/findIdPwdForm.do")
+				location.replace("/posbis/findIdPwdForm.do")
 			}
 
 
 			function goJoinForm(){
 				alert("회원가입으로 이동")
-				location.replace("/z_spring/joinForm.do")
+				location.replace("/posbis/joinForm.do")
 			}
 
 
 			function goLoginForm(){
 				alert("로그인 성공")
-				location.replace("/z_spring/myPageForm.do")
+				location.replace("/posbis/myPageForm.do")
 			}
 
 		</script>

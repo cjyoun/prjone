@@ -8,13 +8,13 @@
       <script src="jquery-1.11.0.min.js"></script>
      <script>
       function goPreSearchForm(){
-         location.replace("/z_spring/preSearchForm.do");
+         location.replace("/posbis/preSearchForm.do");
       }
 
 
       function goMainForm(){
           alert("메인으로 이동");
-          location.replace("/z_spring/mainForm.do");
+          location.replace("/posbis/mainForm.do");
        }
       
 			
@@ -30,8 +30,8 @@
 
          <br>
       <input type="button" value="검색페이지로가기" style="width=130" onClick="goPreSearchForm();">&nbsp;
-      <input type="button" value="마이페이지로가기" style="width=130" onClick="location.replace('/z_spring/myPageForm.do')">&nbsp;
-      <input type="button" value="q&a로가기" style="width=130" onClick="location.replace('/z_spring/qstnRegForm.do')">&nbsp;
+      <input type="button" value="마이페이지로가기" style="width=130" onClick="location.replace('/posbis/myPageForm.do')">&nbsp;
+      <input type="button" value="q&a로가기" style="width=130" onClick="location.replace('/posbis/qstnRegForm.do')">&nbsp;
 
          <br><br><br><br><br>
          [월매출]<br>

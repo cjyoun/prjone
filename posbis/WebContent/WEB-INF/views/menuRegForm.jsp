@@ -13,7 +13,7 @@
          alert("등록하시겠습니까?");
       }
       function goMenuForm(){
-         location.replace( "/z_spring/menuForm.do" );
+         location.replace( "/posbis/menuForm.do" );
       }
 
       </script>

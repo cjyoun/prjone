@@ -25,14 +25,14 @@
       </style>
    <script type="text/javascript">
       function checkQstnRegForm(){
-         location.replace("/z_spring/qstnForm.do");
+         location.replace("/posbis/qstnForm.do");
       }
 
 
 
       function goMainForm(){
           alert("메인으로 이동");
-          location.replace("/z_spring/mainForm.do");
+          location.replace("/posbis/mainForm.do");
        }
       
 
