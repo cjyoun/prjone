@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+<!-- mapper 태그 선언 -->
+<!--mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+	<!-- namespace 속성값으로 [DAO 인터페이스명]이 오며 -->
+	<!-- [DAO 인터페이스] 메소드명과 동일한 id 값을 소유한 태그를 내포하고 있다. -->
+<!--mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+<mapper namespace="com.naver.erp.PreChartDAO">
+
+
+
+	<select id='getUserNo' parameterType="String" resultType="int">	
+		select u_no from user_info where user_id=#{user_id}
+	</select>
+	
+<!-- ========================================================================================= -->
+	
+	<select id='getBusinessNoList' parameterType="int" resultType="java.util.HashMap">	
+		select 
+			business_no as "business_no" 
+			, business_name as "business_name"
+			
+		from business_info 
+			where 
+				1=1 
+				and u_no=#{u_no}
+			
+	</select>
+
+<!-- 	<select id='getBusinessNoList' parameterType="int" resultType="String">	
+		select business_no as "business_no" from business_info 
+			where 
+				1=1 
+				and u_no=#{u_no}
+			
+	</select> -->
+	
+	
+	
+	
+</mapper>
+	

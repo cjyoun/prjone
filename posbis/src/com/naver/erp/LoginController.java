@@ -30,7 +30,7 @@ public class LoginController {
 	
 	@RequestMapping( value="/mainForm.do" )	
 	public ModelAndView loginForm() {		// 메소드 이름은 상관 없음.
-
+		System.out.println("loginForm 메소드 호출");
 		// [ModelAndView 객체] 생성.
 		// [ModelAndView 객체] 에 [호출할 JSP 페이지명] 을 저장하기.
 		// [ModelAndView 객체] 리턴하기
@@ -43,7 +43,7 @@ public class LoginController {
 	
 	@RequestMapping( value="/myPageForm.do" )	
 	public ModelAndView myPageForm() {		// 메소드 이름은 상관 없음.
-
+		System.out.println("myPageForm 메소드 호출");
 		// [ModelAndView 객체] 생성.
 		// [ModelAndView 객체] 에 [호출할 JSP 페이지명] 을 저장하기.
 		// [ModelAndView 객체] 리턴하기
@@ -167,7 +167,7 @@ public class LoginController {
 	
 	
 	
-	
+/*	
 	@RequestMapping( value="/preChartForm.do" )	
 	public ModelAndView preChartForm() {		// 메소드 이름은 상관 없음.
 
@@ -179,7 +179,7 @@ public class LoginController {
 		return mav;
 		
 	}
-	
+*/	
 	
 	
 	
